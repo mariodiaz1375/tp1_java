@@ -1,4 +1,4 @@
-let mensaje = ''
+let mensaje = '';
 do {
     mensaje = prompt('Ingrese un mensaje para repetir')
     if (mensaje.toLowerCase() != 'salir') {
@@ -6,4 +6,4 @@ do {
         console.log(mensaje)
     }
 }while (mensaje.toLowerCase() != 'salir')
-console.log('RPOGRAMA TERMINADO')
+console.log('RPOGRAMA TERMINADO');
